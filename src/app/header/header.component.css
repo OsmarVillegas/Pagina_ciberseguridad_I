@@ -1,0 +1,14 @@
+header i {
+    font-size: 3em;
+}
+
+header {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    background-color: rgba(0, 0, 0);
+}
+
+#header__texto{
+    color: white;
+}
