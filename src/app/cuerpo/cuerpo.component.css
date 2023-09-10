@@ -1,0 +1,45 @@
+.cuerpo {
+    position: relative;
+    z-index: 0;
+    background-color: black;
+    width: 100%;
+    margin-top: 9em;
+}
+
+.cuerpo__backgroundImage {
+    position: relative;
+    z-index: 10;
+    top: -170px;
+    height: 80vh;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    background-image: url("../../assets/IMG/cuerpo_background.png");
+}
+
+.cuerpo__navEstanderes {
+    position: relative;
+    z-index: 1;
+    top: -100px;
+}
+
+.cuerpo__navEstanderes li {
+    cursor: pointer;
+}
+
+.cuerpo__navEstanderes li .active {
+    cursor: default;
+}
+
+
+.cuerpo__backgroundImage__titulo {
+    position: absolute;
+    top: 0em;
+    inset: 70% 45% 30% 45%;
+    color: white;
+}
+
+.nav-tabs {
+    --bs-nav-tabs-border-width: 0;
+}

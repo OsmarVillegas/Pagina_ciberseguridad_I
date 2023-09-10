@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./cuerpo.component.css']
 })
 export class CuerpoComponent {
+  ISO_27001:boolean = true; 
+  ISO_17799:boolean = false;
+  COBIT:boolean = false;
+  NIST:boolean = false;
+  ITIL:boolean = false;
 
 }
